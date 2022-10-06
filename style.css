@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(244, 227, 205);
+  font-family: 'Abyssinica SIL', serif;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1 {
+  color: rgb(0, 109, 0);
+  font-family: 'Abyssinica SIL', serif;
+  font-size: 24px;
+  line-height: normal;
+}
+
+h2 {
+  color: rgb(0, 109, 0);
+  font-family: 'Abyssinica SIL', serif;
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  color: rgb(79, 213, 86);
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(1, 184, 16);
+  text-decoration: normal
+}
+
+i {
+  font-size: 40px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.img-cirlce {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.btn-green {
+  background-color:  rgb(0, 109, 0);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.img-emoji {
+  width: 5%;
+  height: auto
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px;
+}
+
+.list-no-bullets {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.list-block {
+  display: block;
+}
